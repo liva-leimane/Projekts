@@ -22,3 +22,9 @@ cookies_button.click()
 degvielas_input = input("dīzelis, benzīns, elektroauto vai hibrīds: ")
 degvielas = [degviela.strip() for degviela in degvielas_input.split(',')]#  vērtības tiek atdalītas ar komatu
 
+degvielas_izvēle = {
+    "elektroauto": "Elektroauto",
+    "benzīns": "Benzīns",
+    "dīzelis": "Dīzelis",
+    "hibrīds": "Hibrīds"
+}
