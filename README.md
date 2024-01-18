@@ -30,9 +30,12 @@ web lapā, piemēram, elementa atrašana, noklikšķināšana, teksta ievadīša
   from selenium.webdriver.support import expected_conditions as EC - šis modulis nodrošina dažādus waiting conditions, kas ir 
 noderīgi, kad automatizē pārlūkprogrammas darbības ar Selenium WebDriver.
 
-  from selenium.webdriver.support.ui import WebDriverWait -  šī pakotne nodrošina iespēju veikt gaidīšanu pārlūkprogrammas darbībās, 
+  from selenium.webdriver.support.ui import WebDriverWait -  šī pakotne nodrošina iespēju veikt gaidīšanu pārlūkprogrammas 
+darbībās, 
 piemēram, kamēr kāds elements kļūst redzams vai uz tā var uzklikšķināt.
 
 Metožu apraksts:
 
-  1. 
+  1. Konfigurē ChromeDriver - importē pakotnes
+
+  2. Atver mājaslapu - atver mājaslapu izmantojot driver.get.url(), sameklē cookies pogu un uzklikšķina "Es piekrītu", lietotājs ievada degvielas veidus (atdalot ar komatu), 
