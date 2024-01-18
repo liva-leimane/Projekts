@@ -45,3 +45,8 @@ for degviela in degvielas:
 #lietotājs ieraksta kāda kārba
 kārba = input("Automāts vai manuāls: ")
 
+kārbas_veidi = {
+    "automāts": 'label[for="transmission3"]',
+    "manuāls": 'label[for="transmission4"]'
+}
+
