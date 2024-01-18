@@ -38,4 +38,10 @@ Metožu apraksts:
 
   1. Konfigurē ChromeDriver - importē pakotnes
 
-  2. Atver mājaslapu - atver mājaslapu izmantojot driver.get.url(), sameklē cookies pogu un uzklikšķina "Es piekrītu", lietotājs ievada degvielas veidus (atdalot ar komatu), 
+  2. Atver mājaslapu - atver mājaslapu izmantojot driver.get.url(), sameklē cookies pogu un uzklikšķina "Es piekrītu", lietotājs
+ievada degvielas veidus (atdalot ar komatu)
+
+  3. Iegūst nepieciešamos datus un atlasa/filtrē - iet cauri katram ievadītājam degvielas veidam un dotajiem degvielas veidiem no
+html dokumenta un ieklikšķina, ja atbilst nosacījumiem, atkārto šīs pašas darbības ar kārbu ievadīto.
+
+  4. Programma aizverās - kad viss tiek izfiltrēts un apskatīts chrome webdriver aizverās.
