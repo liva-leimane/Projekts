@@ -50,3 +50,9 @@ kārbas_veidi = {
     "manuāls": 'label[for="transmission4"]'
 }
 
+if kārba.lower() in kārbas_veidi:
+    kārba_element = driver.find_element(By.CSS_SELECTOR, kārbas_veidi[kārba.lower()])
+    kārba_element.click()
+else:
+    print("Nepareizi ievadīti dati")
+
