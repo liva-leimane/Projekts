@@ -45,7 +45,3 @@ ievada degvielas veidus (atdalot ar komatu)
 html dokumenta un ieklikšķina, ja atbilst nosacījumiem, atkārto šīs pašas darbības ar kārbu ievadīto.
 
   4. Programma aizverās - kad viss tiek izfiltrēts un apskatīts chrome webdriver aizverās.
-
-Programmas video var apskatīt: 
-
-
