@@ -18,3 +18,7 @@ time.sleep(2)
 cookies_button = driver.find_element(By.XPATH, '//*[@id="cookieConsentForm"]/div[2]/div[4]/div/div/button')
 time.sleep(2)
 cookies_button.click()
+
+degvielas_input = input("dīzelis, benzīns, elektroauto vai hibrīds: ")
+degvielas = [degviela.strip() for degviela in degvielas_input.split(',')]#  vērtības tiek atdalītas ar komatu
+
