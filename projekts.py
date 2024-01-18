@@ -56,3 +56,6 @@ if kārba.lower() in kārbas_veidi:
 else:
     print("Nepareizi ievadīti dati")
 
+time.sleep(5)
+
+driver.close()
