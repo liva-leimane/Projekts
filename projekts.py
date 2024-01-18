@@ -28,3 +28,15 @@ degvielas_izvēle = {
     "dīzelis": "Dīzelis",
     "hibrīds": "Hibrīds"
 }
+
+# iet cauri katram "degvielas_izvēle" un atrod elementu html
+for degviela in degvielas:
+    if degviela.lower() in degvielas_izvēle:
+        label_text = degvielas_izvēle[degviela.lower()]
+        try:
+            filtrs = driver.find_element(By.XPATH, f"//label[contains(text(), '{label_text}')]")
+            filtrs.click()
+            time.sleep(1)  # gaida kad ieklikšķinās
+        except Exception as e:
+            print("netika atrasti šādi elementi")
+    
