@@ -41,3 +41,7 @@ for degviela in degvielas:
             print("netika atrasti šādi elementi")
     else:
         print("Nepareizi ievadīti dati")
+
+#lietotājs ieraksta kāda kārba
+kārba = input("Automāts vai manuāls: ")
+
