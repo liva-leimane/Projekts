@@ -39,4 +39,5 @@ for degviela in degvielas:
             time.sleep(1)  # gaida kad ieklikšķinās
         except Exception as e:
             print("netika atrasti šādi elementi")
-    
+    else:
+        print("Nepareizi ievadīti dati")
